@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --hp-gold: #b8960c;
+  --hp-dark: #1e1e1e;
+  --hp-dark-2: #2a2a2a;
+  --hp-text: #dddddd;
+  --hp-text-muted: #999999;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--hp-dark);
+  color: var(--hp-text);
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+}
+
+/* House colors */
+.house-gryffindor { color: #ae0001 !important; }
+.house-slytherin   { color: #2a8c4a !important; }
+.house-hufflepuff  { color: #d4a017 !important; }
+.house-ravenclaw   { color: #4a6fa5 !important; }
+.house-none        { color: #888 !important; }

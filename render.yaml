@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: 101487100-lab-test2-comp3133
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npx serve dist/101487100-lab-test2-comp3133/browser -l 3000 --single
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
